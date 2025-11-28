@@ -14,7 +14,8 @@ dependencies = [
     "python-dotenv",
     "pillow",
     "numpy",
-    "opencv-python-headless"
+    "opencv-python-headless",
+    "gunicorn>=23.0.0",
 ]
 
 # We removed the [tool.uv] section because pytesseract 
