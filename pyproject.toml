@@ -1,0 +1,21 @@
+[project]
+name = "med-recognition-ai"
+version = "0.1.0"
+description = "AI-based medicine recognition for damaged wrappers"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "flask",
+    "sqlalchemy",
+    "flask-sqlalchemy",
+    "psycopg2-binary",
+    "pytesseract",
+    "langchain-google-genai",
+    "python-dotenv",
+    "pillow",
+    "numpy",
+    "opencv-python-headless"
+]
+
+# We removed the [tool.uv] section because pytesseract 
+# is a standard package and doesn't need special indexes.
