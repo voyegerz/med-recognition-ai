@@ -9,12 +9,10 @@ dependencies = [
     "sqlalchemy",
     "flask-sqlalchemy",
     "psycopg2-binary",
-    "pytesseract",
     "langchain-google-genai",
     "python-dotenv",
     "pillow",
     "numpy",
-    "opencv-python-headless",
     "gunicorn>=23.0.0",
 ]
 
